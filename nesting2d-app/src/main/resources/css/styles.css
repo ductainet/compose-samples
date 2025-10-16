@@ -1,0 +1,182 @@
+/* Main application styles */
+.title-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.section-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #34495e;
+}
+
+/* Button styles */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px 16px;
+    -fx-font-size: 12px;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.button:pressed {
+    -fx-background-color: #21618c;
+}
+
+.button:disabled {
+    -fx-background-color: #bdc3c7;
+    -fx-text-fill: #7f8c8d;
+}
+
+/* Import button special styling */
+#importButton {
+    -fx-background-color: #27ae60;
+    -fx-font-weight: bold;
+}
+
+#importButton:hover {
+    -fx-background-color: #229954;
+}
+
+/* Show details button */
+#showDetailsButton {
+    -fx-background-color: #8e44ad;
+}
+
+#showDetailsButton:hover {
+    -fx-background-color: #7d3c98;
+}
+
+/* Table styles */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell {
+    -fx-border-color: transparent;
+    -fx-padding: 5px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #f8f9fa;
+}
+
+/* ComboBox styles */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+.combo-box:hover {
+    -fx-border-color: #3498db;
+}
+
+/* Label styles */
+.label {
+    -fx-text-fill: #2c3e50;
+}
+
+/* Canvas styles */
+#previewCanvas {
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-background-color: white;
+}
+
+/* Status bar */
+.status-bar {
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px 0 0 0;
+}
+
+/* Menu bar */
+.menu-bar {
+    -fx-background-color: #34495e;
+}
+
+.menu-bar .menu {
+    -fx-text-fill: white;
+}
+
+.menu-bar .menu:hover {
+    -fx-background-color: #2c3e50;
+}
+
+.menu-item {
+    -fx-text-fill: #2c3e50;
+}
+
+.menu-item:hover {
+    -fx-background-color: #ecf0f1;
+}
+
+/* Split pane */
+.split-pane {
+    -fx-background-color: white;
+}
+
+.split-pane-divider {
+    -fx-background-color: #bdc3c7;
+}
+
+/* Scroll pane */
+.scroll-pane {
+    -fx-background-color: white;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: white;
+}
+
+/* Tab pane */
+.tab-pane {
+    -fx-background-color: white;
+}
+
+.tab {
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px 1px 0 1px;
+}
+
+.tab:selected {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px 1px 0 1px;
+}
+
+.tab-header-area {
+    -fx-background-color: #ecf0f1;
+}
+
+/* Grid pane */
+.grid-pane {
+    -fx-background-color: white;
+}
+
+/* VBox and HBox */
+.vbox, .hbox {
+    -fx-background-color: white;
+}
